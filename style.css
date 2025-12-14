@@ -1,0 +1,258 @@
+* {
+    font-family: roboto;
+}
+
+@font-face {
+    font-family: roboto;
+    src: "https://fonts.googleapis.com";
+}
+
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #1F2937;
+}
+
+.header > .header-logo {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    position: relative;
+    left: 175px;
+    top: 15px;
+}
+
+.header-links {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+    padding: 20px 10px 0px 15px;
+    position: relative;
+    right: 150px;
+
+}
+
+ a {
+       text-decoration: none;
+       color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    width: 450px;
+    color: #F9FAF8;
+    position: relative;
+    left: 175px;
+    top: 120px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    position: relative;
+    top: 110px;
+    left: 175px;
+    width: 450px;
+}
+
+.hero-img {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #1F2937;
+}
+
+.hero-img img {
+    height: 250px;
+    width: 500px;
+    position: relative; 
+    right: 160px;
+    bottom: 100px;
+    
+}
+
+.btn-primary {
+    position: relative;
+    top: 103px;
+    left: 175px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight:bold;
+    width: 125px;
+    border-radius: 10px;
+}
+
+
+.info-container {
+    background-color: #F9FAF8;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 450px;
+    
+}
+
+.info-title {
+    position: relative;
+    top: 45px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+
+}
+
+
+.info-img img {
+    width: 175px;
+    height: 165px;
+    margin-right: 45px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    
+}
+
+.info-p {
+    position:absolute;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height:175px;
+
+}
+
+.info-p p {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    text-align: center;
+    width: 200px;
+    margin-right: 20px;
+    word-spacing: -1px;
+    line-height: 20px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 600px;
+    line-height: 45px;
+}
+
+.quote-container p {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.call-to-a-container {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.call-to-a-box {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.call-to-a-header {
+    
+    font-size: 24px;
+    color:  #F9FAF8;
+    font-weight: 600;
+     position: relative;
+    top: 45px;
+    left: 125px;
+}
+    
+
+
+.call-to-a-container p {
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    
+}
+
+.btn-primary2 {
+    
+    color: #F9FAF8;
+    border: 2px solid white;
+    width: 125px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 10px;
+    position: absolute;
+    right: 240px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site-footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.kitten-names {
+    font-weight: 900;
+}
